@@ -29,7 +29,7 @@ describe '#position_taken? in lib/position_taken.rb' do
     expect(position_taken?(board, index)).to be(false)
 
     index = 1
-    expect(position_taken?(board, index)).to be(false)
+    expect(position_taken?(board, index)).to be(true)
   end
 
   it 'returns true if the board has a value of "X" or "O" in the index' do
